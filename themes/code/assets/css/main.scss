@@ -1,0 +1,16 @@
+@import "nord.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: $nord0;
+    color: $nord8;
+}
+
+h1 {
+    color: $nord15;
+}
+
+h2 {
+    color: $nord14;
+}

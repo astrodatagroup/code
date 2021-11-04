@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div id="home-jumbotron" class="jumbotron">
+    <main>
+        <h1 class="title">{{ .Site.Title }}</h1>
+        <h2>{{ .Site.Params.dates }}</h2>
+        <p class="fs-5 col-md-8">{{ .Site.Params.location }}</p>
+    </main>
+</div>
+{{ end }}

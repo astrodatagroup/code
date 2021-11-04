@@ -1,3 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://code.astrodata.nyc/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Astronomical Software Development'
+
+theme = "code"
+
+[params]
+location = 'Center for Computational Astrophysics, New York, NY'
+dates = 'May 16–20, 2022'
