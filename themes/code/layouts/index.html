@@ -1,9 +1,26 @@
 {{ define "main" }}
-<div id="home-jumbotron" class="jumbotron">
-    <main>
-        <h1 class="title">{{ .Site.Title }}</h1>
-        <h2>{{ .Site.Params.dates }}</h2>
-        <p class="fs-5 col-md-8">{{ .Site.Params.location }}</p>
-    </main>
+<div class="index-outer">
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <div class="index-inner">
+            <p class="index-title">{{ .Site.Title }}<span class="index-dot">.</span><span class="anchor">//</span></p>
+            <p class="index-date">{{ .Site.Params.dates }}.</p>
+            <p class="index-location"><a href="{{ .Site.Params.venueLink }}">{{ .Site.Params.venue }}</a>, {{ .Site.Params.location }}.</p>
+            <p class="index-mailing-list"><a class="btn btn-primary btn-lg px-4" href="https://docs.google.com/forms/d/e/1FAIpQLScJ1GsC-WMeOA0wUxsnf5kxwiHBIc_zU3WgPOGAmYCP4H3ZJQ/viewform?usp=sf_link">Sign up for the mailing list</a></p>
+        </div>
+    </div>
+</div>
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+    <p class="header">About</p>
+    <p>
+    This is a proposal to design and convene a weeklong crash course open to
+    astronomers of all levels to focus on “advanced” topics related to
+    scientific software development and maintenance. The target audience would
+    be astronomers who already develop, package, and/or contribute to scientific
+    software and want to take their involvement to the next level. The week
+    would include time for lectures, demonstrations, unconference sessions, and
+    time for prototyping and co-working (“hacking”). We would primarily focus on
+    the conceptual and social challenges associated with “production” software
+    development, rather than specific tools/languages/etc.
+    </p>
 </div>
 {{ end }}

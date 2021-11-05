@@ -1,9 +1,11 @@
 baseURL = 'https://code.astrodata.nyc/'
 languageCode = 'en-us'
-title = 'Astronomical Software Development'
+title = 'An Astronomical Software Development Crash Course'
 
 theme = "code"
 
 [params]
-location = 'Center for Computational Astrophysics, New York, NY'
+venue = 'Center for Computational Astrophysics'
+venueLink = 'https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/'
+location = 'New York, NY'
 dates = 'May 16–20, 2022'
