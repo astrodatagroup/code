@@ -7,8 +7,12 @@ body {
     color: $nord5;
 }
 
-p {
+.index-outer p {
     margin: 0;
+}
+
+strong {
+    color: $nord15;
 }
 
 a {

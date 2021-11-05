@@ -5,7 +5,7 @@
             <p class="index-title">{{ .Site.Title }}<span class="index-dot">.</span><span class="anchor">//</span></p>
             <p class="index-date">{{ .Site.Params.dates }}</p>
             <p class="index-location"><a href="{{ .Site.Params.venueLink }}">{{ .Site.Params.venue }}</a>, {{ .Site.Params.location }}</p>
-            <p class="index-mailing-list"><a class="btn btn-primary btn-lg px-4" href="https://docs.google.com/forms/d/e/1FAIpQLScJ1GsC-WMeOA0wUxsnf5kxwiHBIc_zU3WgPOGAmYCP4H3ZJQ/viewform?usp=sf_link">Sign up for the mailing list</a></p>
+            <p class="index-mailing-list"><a class="btn btn-primary btn-lg px-4" href="{{ .Site.Params.signUpLink }}">Sign up for the mailing list</a></p>
         </div>
         <div class="index-more col-lg-8 mx-auto"><a href="#about">&darr;</a></div>
     </div>
