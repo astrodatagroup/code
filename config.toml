@@ -1,6 +1,6 @@
 baseURL = 'https://code.astrodata.nyc/'
 languageCode = 'en-us'
-title = 'An Astronomical Software Development Crash Course'
+title = 'Astronomical Software Development'
 
 theme = "code"
 

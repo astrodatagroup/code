@@ -4,7 +4,7 @@
 body {
     font-family: 'Fira Code', monospace;
     background-color: $nord0;
-    color: $nord8;
+    color: $nord5;
 }
 
 p {
@@ -12,16 +12,17 @@ p {
 }
 
 a {
-    color: inherit !important;
+    color: inherit;
 }
 
 a:hover {
-    color: $nord7;
+    color: $nord8;
 }
 
 .btn-primary {
     background-color: $nord0;
     border-color: $nord8;
+    color: $nord8;
 }
 
 .btn-primary:hover {
@@ -46,8 +47,20 @@ a:hover {
     font-size: 1.5rem;
 }
 
-.index-dot {
+.index-more {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
     color: $nord8;
+}
+
+.index-more a {
+    text-decoration: none;
+}
+
+.index-dot {
+    color: $nord5;
 }
 
 .index-title {
@@ -69,10 +82,11 @@ a:hover {
     padding: 2rem 0;
 }
 
-.header {
+h1 {
     font-weight: 700;
     margin: 1.5rem 0 1rem;
     font-size: 1.2rem;
+    color: $nord10;
 }
 
 .anchor {
@@ -82,4 +96,8 @@ a:hover {
     color: $nord3;
     text-align: right;
     font-weight: normal;
+}
+
+footer {
+    color: $nord5;
 }
