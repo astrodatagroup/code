@@ -1,107 +1,116 @@
 @import "nord.scss";
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
 
 body {
-    font-family: 'Fira Code', monospace;
-    background-color: $nord0;
-    color: $nord5;
+  font-family: "Fira Code", monospace;
+  background-color: $nord0;
+  color: $nord5;
 }
 
 .index-outer p {
-    margin: 0;
+  margin: 0;
 }
 
 strong {
-    color: $nord15;
+  color: $nord15;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 a:hover {
-    color: $nord8;
+  color: $nord8;
 }
 
 .btn-primary {
-    background-color: $nord0;
-    border-color: $nord8;
-    color: $nord8;
+  background-color: $nord0;
+  border-color: $nord8;
+  color: $nord8;
 }
 
 .btn-primary:hover {
-    background-color: $nord2;
-    border-color: $nord8;
+  background-color: $nord2;
+  border-color: $nord8;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul li:before {
+  content: "=>";
+  margin: 0 1em 0 0; /* any design */
+}
 
 .index-outer {
-    display: block;
-    height: 100vh;
-    width: 100%;
-    background-color: $nord0;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-color: $nord0;
 }
 
 .index-inner {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.5rem;
 }
 
 .index-more {
-    position: absolute;
-    bottom: 1rem;
-    font-size: 1.5rem;
-    text-align: center;
-    color: $nord8;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $nord8;
 }
 
 .index-more a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .index-dot {
-    color: $nord5;
+  color: $nord5;
 }
 
 .index-title {
-    color: $nord15;
-    font-weight: 700;
+  color: $nord15;
+  font-weight: 700;
 }
 
 .index-date {
-    font-style: italic;
-    color: $nord10;
+  font-style: italic;
+  color: $nord10;
 }
 
 .index-location {
-    font-style: italic;
-    color: $nord10;
+  font-style: italic;
+  color: $nord10;
 }
 
 .index-mailing-list {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 h1 {
-    font-weight: 700;
-    margin: 1.5rem 0 1rem;
-    font-size: 1.2rem;
-    color: $nord10;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.2rem;
+  color: $nord10;
 }
 
 .anchor {
-    text-decoration: none;
-    position: absolute;
-    left: -2.5rem;
-    color: $nord3;
-    text-align: right;
-    font-weight: normal;
+  text-decoration: none;
+  position: absolute;
+  left: -2.5rem;
+  color: $nord3;
+  text-align: right;
+  font-weight: normal;
 }
 
 footer {
-    color: $nord5;
+  color: $nord5;
 }
