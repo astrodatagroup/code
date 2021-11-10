@@ -1,0 +1,11 @@
+Dear colleagues,
+
+We are planning a workshop focused on topics in open source software development practices for astronomy, held in-person at the Center for Computational Astrophysics in New York City, May 16–20, 2022. The program and scope are still in development, but we expect it to be of interest to astronomers with a wide range of open source experience, and across all career stages. The schedule will include a large fraction of unstructured time for participant-driven discussion, collaboration, and co-working.
+
+For more information about this workshop and to sign up to hear more details as they become available, please check out our website at https://code.astrodata.nyc
+
+Please share this email with anyone else who you think might be interested in participating in this event.
+
+Best,
+Dan
+(on behalf of the organizing committee)
