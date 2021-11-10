@@ -44,6 +44,22 @@ ul li:before {
   margin: 0 1em 0 0; /* any design */
 }
 
+.index-logo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+@media (min-height: 600px){
+  .index-logo {
+    display: block;
+  }
+}
+
 .index-outer {
   display: block;
   height: 100vh;
