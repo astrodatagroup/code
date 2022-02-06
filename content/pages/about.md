@@ -7,14 +7,14 @@ type: front
 
 # About
 
-**Astronomical Software Development** will be a week-long workshop/crash course/unconference/hackathon, where we will discuss and learn about the finer details of managing open source software projects in astronomy.
-The target audience is primarily astronomers (at all career stages!) who are excited about taking their software development skills to the next level and to produce user-friendly, high-impact, and reusable libraries, but we expect that the discussions will be of interest to astronomers with a broad range of software development experience.
-The specific schedule, format, and range of topics have not yet been decided, but some possible topics include:
+**What this workshop is** => This will be a week-long workshop and unconference, where we will discuss and learn about the finer details of managing and contributing to open source software projects in astronomy. Some main goals of this program are to:
 
-- The realities of testing scientific software,
-- Contributing to open-source projects of all scales by writing bug reports and submitting patches,
-- Community development and project sustainability,
-- Issues of academic credit for software development,
-- And many more!
+- build a network of astronomers who participate in the open source community, through contributions including code, documentation, support, management, and many other aspects of this ecosystem,
+- identify ways that we, as a community, can promote and support astronomical software development, and the people who do it, and
+- discuss some high-level technical topics specific to scientific software development (e.g. development workflows/infrastructure, testing best practices, academic credit, etc.).
 
-The program will include a large fraction of unstructured time for participant-driven discussion, collaboration, and co-working.
+Serious code development experience is not a prerequisite for this meeting, and we value the perspectives of scientific software developers, managers, users, advocates, and all other members of this community.
+
+**What this workshop isn't** => This workshop is not going to focus on specific tools, programming languages, or introductory software development topics. There are detailed software development workshops, courses, and resources out there that we don’t want to recreate (we have included a list of some examples at the end of this message), so this unconference is not meant to be a place to learn about how to use computing tools (e.g. git, Python, or even topics in high-performance or GPU computing). Similarly, we’re not here to learn a specific branch of modeling or technique (e.g. "big data," machine learning, Gaussian Processes). Instead, we aim to emphasize community building and discussions of higher-level topics. However, we do not expect participants to be expert coders, and we encourage you to apply to the workshop regardless of your experience level! You will certainly have things to teach and learn.
+
+**The program** => This workshop will feature lectures and/or facilitated thematic discussions in the mornings, followed by afternoons of unstructured collaboration/discussion/co-working time. The daily topics, speakers, and facilitators are yet to be determined, but they will fall into the broad set of topics discussed above. The afternoons will be participant-driven, so you will have the opportunity to lead and join discussions on topics of your choosing, or try implementing ideas discussed in the morning sessions. We expect that all participants will actively participate in these hands-on sessions to the full extent that makes sense for them.
