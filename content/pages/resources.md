@@ -23,3 +23,7 @@ Books and online resources:
 - [OpenAstronomy Software Packaging Guide (Python)](https://packaging-guide.openastronomy.org/en/latest/)
 - [Astropy Tutorials and Guides](https://learn.astropy.org/)
 - [PyData lectures and tutorials](https://www.youtube.com/user/PyDataTV)
+
+Organizations:
+
+- [US Research Software Engineer Association](https://us-rse.org/)
